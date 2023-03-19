@@ -1,0 +1,17 @@
+<form class="box" action="/parklist/{{parklist._id}}/addpark" method="POST">
+  <label>Enter Park Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Park Name" name="title">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Location" name="location">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter 0-10 Rating" name="rating">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Add Park</button>
+</form>

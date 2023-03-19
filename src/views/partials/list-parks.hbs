@@ -1,0 +1,30 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Park</th>
+      <th>Location</th>
+      <th>Operating Hours</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each parklist.parks}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{location}}
+        </td>
+        <td>
+          {{duration}}
+        </td>
+        <td>
+          <a href="/parklist/{{../parklist._id}}/deletepark/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "firstName": "Mickey",
+      "lastName": "Mouse",
+      "email": "mickey@mouse.com",
+      "password": "secret",
+      "_id": "6486cbcb-a979-4797-8338-2aa0f14ed592"
+    }
+  ]
+}
